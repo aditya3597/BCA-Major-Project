@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/IMG/bg1.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center center;
+    font-family: sans-serif;
+    position: absolute;
+}
+
+.card{
+    width: 200px;
+    height: 260px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 2s;
+}
+.card1{
+    background-image: url(/IMG/Almira.jpg); 
+}
+.card2{
+    background-image: url(/IMG/almira\ 2.jpg); 
+}
+.card3{
+    background-image: url(/IMG/almira\ 3.jpg); 
+}
+.card4{
+    background-image: url(/IMG/almira\ 4.jpg); 
+}
+.card:hover{
+    transform: translateX( -60px);
+    cursor: pointer;
+}
+h3{
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(7, 83, 83);
+    text-shadow: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#left-nav{
+    float: left;
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+#right-nav{
+    float: right;
+    text-decoration: none;
+}
+#right-nav li{
+    display: inline-block;
+    margin: 10px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+h1{
+    color: #96848e;
+    font-size: 100px;
+}
+p2{
+    color: #a19a9e;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+p{
+    color: #5d4954;
+    font-weight: bold;
+}
+button{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 180px;
+    color: #000;
+    background: #96848e;
+    opacity: 0.6;
+    font-size: 20px;
+   
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background: url(/IMG/bg1.jpg);
+    opacity: 0.4;
+    color: #96848e;
+    
+}
